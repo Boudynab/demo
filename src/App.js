@@ -1,16 +1,9 @@
-
-import React from'react';
-import './App.css';
-import Navbar from './Navbar';
-import Home from './Homepage';
-
+import React from 'react';
+import Calculator from './Calculator';
 function App() {
   return (
     <div className="App">
-       <Navbar />
-      <div classname= "content">
-        <Home />
-      </div>
+      <Calculator />
     </div>
   );
 }
